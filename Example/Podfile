@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'dial-discovery-ios_Example' do
+  pod 'dial-discovery-ios', :path => '../'
+
+  target 'dial-discovery-ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
