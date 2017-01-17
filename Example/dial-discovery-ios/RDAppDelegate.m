@@ -12,7 +12,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    if(!_tvDiscoveryComponent){
+        
+        // get a refrerence to a DIAL device discoverer
+        _tvDiscoveryComponent = [[DIALServiceDiscovery alloc] initWithApplication:kHbbTVApp];
+        
+        [_tvDiscoveryComponent start];
+    }
+
     return YES;
 }
 

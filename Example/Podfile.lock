@@ -1,0 +1,27 @@
+PODS:
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - dial-discovery-ios (0.1.0):
+    - CocoaAsyncSocket (~> 7.5.1)
+    - JSONModel (~> 1.0)
+    - simple-logger-ios (~> 0.1)
+  - JSONModel (1.7.0)
+  - simple-logger-ios (0.1.0)
+
+DEPENDENCIES:
+  - dial-discovery-ios (from `../`)
+
+EXTERNAL SOURCES:
+  dial-discovery-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  dial-discovery-ios: 1b6d98ac7d9bf8ea7b76277ae574b33cb8dbf1bf
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  simple-logger-ios: 01f25938f328b52b6a37e7b19b1b81ee47152841
+
+PODFILE CHECKSUM: 54d1c2c239655480251778cef20684e80afb4e55
+
+COCOAPODS: 1.1.1

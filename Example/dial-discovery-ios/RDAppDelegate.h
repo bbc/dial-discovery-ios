@@ -7,9 +7,16 @@
 //
 
 @import UIKit;
+#import <dial_discovery_ios/DIALServiceDiscovery.h>
 
 @interface RDAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+/** A reference to a DIALServiceDiscovery component */
+@property (atomic, readwrite)   DIALServiceDiscovery *tvDiscoveryComponent;
+
+@property (strong, nonatomic) DIALDevice *myDevice;
+
 
 @end

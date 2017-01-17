@@ -1,0 +1,6 @@
+framework module dial_discovery_ios {
+  umbrella header "dial-discovery-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}

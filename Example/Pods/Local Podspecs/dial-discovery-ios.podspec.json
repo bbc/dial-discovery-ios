@@ -1,0 +1,38 @@
+{
+  "name": "dial-discovery-ios",
+  "version": "0.1.0",
+  "summary": "Service discovery via SSDP and HbbTV device discovery via DIAL",
+  "description": "This framework provides APIs for the discovery of services via SSDP and the discovery of devices via DIAL, as used in [HbbTV 2](http://hbbtv.org/resource-library/#specifications) compliant TVs It allows HbbTV terminals existing on the same network to be discovered by the Companion Screen Application.\nUsing the DIAL protocol, the Companion Screen Application can launch an HbbTV application on the television.",
+  "homepage": "https://github.com/bbc/dial-discovery-ios",
+  "license": {
+    "type": "Apache License, Version 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rajiv Ramdhany": "rajiv.ramdhany@bbc.co.uk"
+  },
+  "source": {
+    "git": "https://github.com/bbc/dial-discovery-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "dial-discovery-ios/Classes/**/*",
+  "resource_bundles": {
+    "dial-discovery-ios": [
+      "dial-discovery-ios/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "CocoaAsyncSocket": [
+      "~> 7.5.1"
+    ],
+    "simple-logger-ios": [
+      "~> 0.1"
+    ],
+    "JSONModel": [
+      "~> 1.0"
+    ]
+  }
+}

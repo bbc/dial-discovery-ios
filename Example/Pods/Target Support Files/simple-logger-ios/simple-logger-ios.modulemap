@@ -1,0 +1,6 @@
+framework module simple_logger_ios {
+  umbrella header "simple-logger-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
