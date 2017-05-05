@@ -55,9 +55,9 @@ Run the documentation build process to build documentation for:
 
 Note that these are slightly different (because of the 2nd line in the `VERSION` file)
 
-Checkout the [gh-pages](https://github.com/bbc/config-reader-ios/tree/gh-pages) branch and make the following commits:
+Checkout the [gh-pages](https://github.com/bbc/dial-discovery-ios/tree/gh-pages) branch and make the following commits:
 
-* replace the contents of [`docs/latest`](https://github.com/bbc/config-reader-ios/tree/gh-pages/docs/latest)
+* replace the contents of [`docs/latest`](https://github.com/bbc/dial-discovery-ios/tree/gh-pages/docs/latest)
   with the documentation build for the "latest" state of master.
 
 * put into `docs/XXXX` the documentation build for the "new" release branch, where XXXX is the version number
@@ -72,7 +72,7 @@ repository to be able to publish a pod. Instructions to register with CocoaPods 
 
 For subsequent releases, increment the version number in the PodSpec file and push the new pod version .
 
-    $ pod trunk push config-reader-ios.podspec
+    $ pod trunk push dial-discovery-ios.podspec
 
 
 - - - - -
@@ -91,7 +91,7 @@ synced with GitHub. The following steps will do a release "X.Y.Z"
 
 Run unit tests:
 
-    $ xcodebuild test -workspace Example/config-reader-ios.xcworkspace -scheme config-reader-ios-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+    $ xcodebuild test -workspace Example/dial-discovery-ios.xcworkspace -scheme dial-discovery-ios-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
     $ pod lib lint
 
 
@@ -142,7 +142,7 @@ Push branch up to github (and set local repository to track the upstream branch 
 
 ### 4. Create a new release on GitHub based on the new branch
 
-Now use the [new release](https://github.com/bbc/config-reader-ios/releases/new) function on GitHub's web interface to
+Now use the [new release](https://github.com/bbc/dial-discovery-ios/releases/new) function on GitHub's web interface to
 mark the branch 'X.Y.Z' as a new release.
 
 ### 5. Update documentation builds on gh-pages
@@ -196,4 +196,4 @@ Push to GitHub:
 Upload to CocoaPods Trunk:
 
     $ git checkout <<release-branch>>
-    $ pod trunk push config-reader-ios.podspec
+    $ pod trunk push dial-discovery-ios.podspec
