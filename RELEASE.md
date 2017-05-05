@@ -1,4 +1,4 @@
-# Release process for config-reader-ios
+# Release process for dial-discovery-ios
 
 ## Explanation of the process sequence
 
