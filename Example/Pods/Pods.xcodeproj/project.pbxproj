@@ -7,37 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B2994CA0C4D30FB95355C10EFA2138A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1864A7212E30F95D3CBD2424CD0441D /* Security.framework */; };
-		0F590DF8EE55D9C4110B476B249C064C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */; };
 		17652E4238096EE0DC00274B655685F9 /* Pods-dial-discovery-ios_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0BDD094D4C84960100045ED12E6733 /* Pods-dial-discovery-ios_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1811BA3F7181DE1425AC0D8B10DCBE67 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AF1A394301FD61A31B3D982BB6E3433C /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F00A39570A72AB431433DB698107A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */; };
 		24934DA9D5D54C150B034BE8768BB4BB /* SSDPServiceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 647465CEA246A331FB4208475010B251 /* SSDPServiceDiscovery.m */; };
 		25B2BB8F1A068809CCE7BC96CC8985A9 /* SSDPServiceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 20E36497ACDC732A1D3C05B8E0D7E299 /* SSDPServiceDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265355B052B0CCA4C08BFF653AF698B8 /* dial-discovery-ios.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 776FDD46E2DBF470C843FE905B1D5011 /* dial-discovery-ios.bundle */; };
 		2C848E5B4EF27B7FA7CDDA1381774C03 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59801B3AA2834D36DF45E266EACC8293 /* JSONModel.m */; };
+		2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */; };
 		2EA49F086A9FA2FA8D865615DF00F851 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 29C526003F61F052745ACC15B99FBAB5 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		350A07B7A89CFC33CFA3C2C17E90CE61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */; };
 		359D18B4BDBAB362C85553FD3C67FD05 /* MWLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AD2DAF7A346CE98FB37A96DD3260A5 /* MWLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3715244680F97B8EA68220EBCA978EBE /* DIALDeviceDiscoveryTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D60DFA3B7685ED060F820068D3995B0 /* DIALDeviceDiscoveryTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38DB6B486AC12712E0911F560E643A8B /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE47316A6C029149140BD24980DAED4 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CF97744E67AA97E05049EFD7E6B8B7E /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B79DB24FB031D6710BEC3C202EC8EBC /* JSONValueTransformer.m */; };
 		3F770D324592F3EFBE2B9DEA7A9F0953 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BCC7B56C1E8823F19908787055A535 /* CocoaAsyncSocket.framework */; };
 		48F8A9EB13B3B2FB8AECD7E701F18E29 /* MWLogging.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C0B49D497429C50CB016EA27E20EB8 /* MWLogging.m */; };
-		4BC0809D78563F57192E07CD52FE6AB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */; };
 		4D047DD52F60A75048FAFCE258D894F8 /* dial-discovery-ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68C0967C26A0FB915709F918929C530D /* dial-discovery-ios-dummy.m */; };
 		4D0E7FDB59F59207984E80D72BC25713 /* Pods-dial-discovery-ios_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F21E43B6ADAB303C778D4915D1A645E /* Pods-dial-discovery-ios_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52366DF983AF0D126BAB9003F3CEADB4 /* DeviceDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 038944896574D36576577A6603A624A3 /* DeviceDescription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54BDB2C99606CB1261081941CAA747D4 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 02FB9C0643469D246020CE0DF582B627 /* JSONModelClassProperty.m */; };
+		569FA884860A7AA2463F06B5F781B4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */; };
 		586DBA778CD89A883BE4653DC94F7264 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25745C5070792176938DF31FD44F9D24 /* JSONKeyMapper.m */; };
 		694B7E5352055700565CC97A7A4D9D6A /* dial-discovery-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C72EECEC2729FE8457EC3E3778A7CD17 /* dial-discovery-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69CDFE81F02BA0A9FDA9E1C8F116095B /* DIALDeviceDiscoveryTaskDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D2713C34BF732D1EEF431351BCEEAC5E /* DIALDeviceDiscoveryTaskDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DEA47138A111E06AD94F59C1428CB92 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C27473400677256CD2C7196B481FDF9 /* JSONHTTPClient.m */; };
-		70EFAD1B7D9C7185C19006FB589B0852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */; };
 		7230FB28ECDFB8CB7558BDB321474591 /* SSDPServiceTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 869BF3288E17ED0F898F4B4B732E1317 /* SSDPServiceTypes.m */; };
 		7340F1C0FCB45CFC0465F796BC9B3D56 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = CADCFBE2A98CED4158586102AA0CA0BE /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77BCFADB54DFCBC625DF66B302BFD7D0 /* simple-logger-ios-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60A00A77142F39239466403F100163A2 /* simple-logger-ios-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78673E0A090CAA106F510D94186B39A1 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99FC7649735F47A9BFE1EB8C35F879D4 /* CFNetwork.framework */; };
 		79A33EA19AC762894F7C8242C4D8E655 /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CBFBEF3E1D10CDEB74CA60E121EA8C7 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AC8F638D10DAA7198980CEF1BA7864E /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF41F15315B681BBC31F4CEC84BDE4DC /* JSONModel-dummy.m */; };
 		7DD901E05A343CAC7E83FA3E56B0735E /* Pods-dial-discovery-ios_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B78E0B0D5E3212DFE9911190CE7A34D /* Pods-dial-discovery-ios_Tests-dummy.m */; };
@@ -55,13 +50,16 @@
 		AEC67D1E8209B472F2858D8CC7DC7428 /* DIALGlobals.m in Sources */ = {isa = PBXBuildFile; fileRef = C27C18E25BF7AB5E9735336162AB4B8A /* DIALGlobals.m */; };
 		AEE9644DA0EFCF945438E125BA4F0724 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8CA48250C8A7E685D782D224578B2B /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		AF47B7164EDE610B7BE4C94E704AC163 /* utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAFD7543C6A8BE6125A2A0E8B8F80E4 /* utils.m */; };
-		B40A713A28764D2DCD825DF6DED4581D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */; };
 		B45EE7C39C60EDAC03855EE420B2DBBD /* SSDPService.h in Headers */ = {isa = PBXBuildFile; fileRef = BE62F42AB3ADB850C9BFE707BFEF92DC /* SSDPService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E69947A4357E0AEB82743438DDB2081E /* Security.framework */; };
 		B7DD8715E0916984C54DFE9E554375A5 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B2788AD99EBF91040925ABBBA8C5A2 /* JSONModel.framework */; };
 		BB34BF08AB0BD714BE8E0407DFA6B539 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 643795E4A18D2FE3A64704C9E065587C /* JSONModelError.m */; };
 		BFC9D7C7D0A1343B2374C9624023CFE1 /* simple_logger_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000F8A9B9BC109C310197D29C9438C90 /* simple_logger_ios.framework */; };
 		C55C9ACE4EB4A82BBCB084CCC54577A8 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E8C807B7A23C8DFC8A01851B8D85D7 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64156DC220043DAE998C5BA3837674E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */; };
+		D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D54C4F377E3FDD7A3F2849FF4F7BC /* CFNetwork.framework */; };
 		D57A939E20CC6304BBA784F3C2D91951 /* DIALGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = FCC48D846E137C834F5576AE1335BE89 /* DIALGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8E23D39662B045EF6245F55D52AEA45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */; };
 		DA843B771D733336CE3CC2CD62F12251 /* DIALDeviceDiscoveryTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 141E415B9B6B4FA3CFB83C526E780086 /* DIALDeviceDiscoveryTask.m */; };
 		DAF65D83E97CA0E9BC7ECB952C6074F9 /* SSDPServiceTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 96EF4F68060B564A6CD6EE1275FB71C8 /* SSDPServiceTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBA9603C2281C91F0B1BD02474499054 /* DIALServiceDiscovery.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C04156AEEB2C0D5BDC0E1FFA9A252D /* DIALServiceDiscovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,7 +68,9 @@
 		E686A68CC65C6AF43328CEAA56A96F82 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C74108191B7C5ED3BD8F97086BFD9C59 /* JSONAPI.m */; };
 		ED254268F1516730A970583F3523CFC8 /* SSDPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2518392752F36F9A34B88DFA11787B6E /* SSDPService.m */; };
 		F158637137E31463471BFC40F8F9BCAA /* DIALDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 317077A6223201A48D623816479AB2B2 /* DIALDevice.m */; };
+		F3C60AC6A8ED4ABF78CF68BAACECC04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */; };
 		F5BA0B117A977A0240A44ECA9E0B5CE6 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B9E0FAEDC32161EE35B2FDBA66611DA /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6B2440A2B399A261C10A4E6B11B089D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */; };
 		F6C48E0ABED5ABD255265AA34CC36E75 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FFC10CA0C21A968F8AF05C18BE4020 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF6D0A15F8D3884E54B33C9C807C33B9 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC562FC00FECFACE4FD221DB1031795 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -163,12 +163,14 @@
 		2D60DFA3B7685ED060F820068D3995B0 /* DIALDeviceDiscoveryTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DIALDeviceDiscoveryTask.h; sourceTree = "<group>"; };
 		2D961F64CF2C6490ABFB9C6D28155AF3 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
 		2F21E43B6ADAB303C778D4915D1A645E /* Pods-dial-discovery-ios_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-dial-discovery-ios_Example-umbrella.h"; sourceTree = "<group>"; };
+		305D54C4F377E3FDD7A3F2849FF4F7BC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		317077A6223201A48D623816479AB2B2 /* DIALDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DIALDevice.m; sourceTree = "<group>"; };
 		369AB04E1E1CC8A8B5E0B465227BB6ED /* simple-logger-ios.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "simple-logger-ios.modulemap"; sourceTree = "<group>"; };
 		38B2788AD99EBF91040925ABBBA8C5A2 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9E0FAEDC32161EE35B2FDBA66611DA /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
 		3C0E10B5395567C8A1AB9B7E53906343 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
 		44219DA8613CD14A4600B919D953C74B /* Pods-dial-discovery-ios_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dial-discovery-ios_Example-resources.sh"; sourceTree = "<group>"; };
+		46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4AAFD7543C6A8BE6125A2A0E8B8F80E4 /* utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = utils.m; sourceTree = "<group>"; };
 		4C7DE7256B2526A88E9C0F2E92D03D18 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		4ECECAE7061185234C356D0A19A467C7 /* Pods-dial-discovery-ios_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-dial-discovery-ios_Example.modulemap"; sourceTree = "<group>"; };
@@ -200,7 +202,6 @@
 		90FFC10CA0C21A968F8AF05C18BE4020 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96EF4F68060B564A6CD6EE1275FB71C8 /* SSDPServiceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSDPServiceTypes.h; sourceTree = "<group>"; };
-		99FC7649735F47A9BFE1EB8C35F879D4 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		9A599246C93094FD4C558A9EF6D3466C /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C3469B3FF03DD6BC383E34BB7353A7B /* Pods-dial-discovery-ios_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-dial-discovery-ios_Tests.modulemap"; sourceTree = "<group>"; };
 		9D79AADB0B106C1AEA7999F7FA5B3064 /* Pods-dial-discovery-ios_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-dial-discovery-ios_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -208,9 +209,7 @@
 		ADBD1C6CA1F553C62C8035F3EFC3A65C /* Pods-dial-discovery-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dial-discovery-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AE9EF7EC43E385B2DA86F3B159FC0872 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1A394301FD61A31B3D982BB6E3433C /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
-		B1864A7212E30F95D3CBD2424CD0441D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		BE62F42AB3ADB850C9BFE707BFEF92DC /* SSDPService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SSDPService.h; sourceTree = "<group>"; };
-		BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		C27C18E25BF7AB5E9735336162AB4B8A /* DIALGlobals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DIALGlobals.m; sourceTree = "<group>"; };
 		C4FE79D3B4C3A4C8D0838EA8762D83DD /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		C72EECEC2729FE8457EC3E3778A7CD17 /* dial-discovery-ios-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "dial-discovery-ios-umbrella.h"; sourceTree = "<group>"; };
@@ -225,6 +224,7 @@
 		DF1CA22285CFECB742B7B37E04794826 /* DeviceDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DeviceDescription.m; sourceTree = "<group>"; };
 		DFE1C5BADD8D924B0763784B9747A855 /* Pods-dial-discovery-ios_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-dial-discovery-ios_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E5099F2627308AAE4FA4D772AF8BD232 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		E69947A4357E0AEB82743438DDB2081E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		E6CBF6689F5B1771FD5E52F391F14AE5 /* Pods-dial-discovery-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-dial-discovery-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7CE9C1D97F45A608F61A116D4A2BE31 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8A0773D6604B47F96F685C1913772D8 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
@@ -250,9 +250,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78673E0A090CAA106F510D94186B39A1 /* CFNetwork.framework in Frameworks */,
-				350A07B7A89CFC33CFA3C2C17E90CE61 /* Foundation.framework in Frameworks */,
-				0B2994CA0C4D30FB95355C10EFA2138A /* Security.framework in Frameworks */,
+				D01B2EBC1AB52980422F5A831BBCE3F4 /* CFNetwork.framework in Frameworks */,
+				2DAA98C8614A6DED26CE8712531AE1FC /* Foundation.framework in Frameworks */,
+				B688B80E8B12B7F6988B29DC592DA94D /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +260,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BC0809D78563F57192E07CD52FE6AB0 /* Foundation.framework in Frameworks */,
+				C64156DC220043DAE998C5BA3837674E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F770D324592F3EFBE2B9DEA7A9F0953 /* CocoaAsyncSocket.framework in Frameworks */,
-				1F00A39570A72AB431433DB698107A7D /* Foundation.framework in Frameworks */,
+				F3C60AC6A8ED4ABF78CF68BAACECC04C /* Foundation.framework in Frameworks */,
 				B7DD8715E0916984C54DFE9E554375A5 /* JSONModel.framework in Frameworks */,
 				BFC9D7C7D0A1343B2374C9624023CFE1 /* simple_logger_ios.framework in Frameworks */,
 			);
@@ -279,7 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70EFAD1B7D9C7185C19006FB589B0852 /* Foundation.framework in Frameworks */,
+				F6B2440A2B399A261C10A4E6B11B089D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +287,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F590DF8EE55D9C4110B476B249C064C /* Foundation.framework in Frameworks */,
+				D8E23D39662B045EF6245F55D52AEA45 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +295,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B40A713A28764D2DCD825DF6DED4581D /* Foundation.framework in Frameworks */,
+				569FA884860A7AA2463F06B5F781B4F9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +433,16 @@
 			name = GCD;
 			sourceTree = "<group>";
 		};
+		AC3F60341EFA46F513B634284528A1B9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				305D54C4F377E3FDD7A3F2849FF4F7BC /* CFNetwork.framework */,
+				46E805B9EB4DC78C471E0EB7EC59AC09 /* Foundation.framework */,
+				E69947A4357E0AEB82743438DDB2081E /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		B7A9B10209AACEC248B2BB46B7B57DA5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -453,19 +463,9 @@
 				08BCC7B56C1E8823F19908787055A535 /* CocoaAsyncSocket.framework */,
 				38B2788AD99EBF91040925ABBBA8C5A2 /* JSONModel.framework */,
 				000F8A9B9BC109C310197D29C9438C90 /* simple_logger_ios.framework */,
-				C83917B4A2BDF88E5A48CF45C337982C /* iOS */,
+				AC3F60341EFA46F513B634284528A1B9 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C83917B4A2BDF88E5A48CF45C337982C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				99FC7649735F47A9BFE1EB8C35F879D4 /* CFNetwork.framework */,
-				BFF891AE293C2B53DFBE01E881208C8C /* Foundation.framework */,
-				B1864A7212E30F95D3CBD2424CD0441D /* Security.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		CB3E33F2DD1A3B0FCBC435FA482857D6 /* dial-discovery-ios */ = {
@@ -783,7 +783,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -974,41 +974,11 @@
 			};
 			name = Release;
 		};
-		023DE06AB02FA04E290D23930FAD09D2 /* Debug */ = {
+		079CBCEEF40C3DA57BC67778C5A6771F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2D82C0427D0A9678EA9F4208CFA3405 /* simple-logger-ios.xcconfig */;
+			baseConfigurationReference = 6273A7B83B3373E5D608A017858407FB /* JSONModel.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/simple-logger-ios/simple-logger-ios-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/simple-logger-ios/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/simple-logger-ios/simple-logger-ios.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = simple_logger_ios;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4514E460D2D9B48E7D37CAAC23BDAFCB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F2D82C0427D0A9678EA9F4208CFA3405 /* simple-logger-ios.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1020,14 +990,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/simple-logger-ios/simple-logger-ios-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/simple-logger-ios/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/simple-logger-ios/simple-logger-ios.modulemap";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = simple_logger_ios;
+				PRODUCT_NAME = JSONModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1036,10 +1006,11 @@
 			};
 			name = Release;
 		};
-		4C79CDDCF661E69FB89A58BA73409946 /* Debug */ = {
+		096D46A10CC1FC2C4B390978053701AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88549A67C6C30DB7CDF2CCFF96C7E77B /* dial-discovery-ios.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1067,42 +1038,80 @@
 			};
 			name = Debug;
 		};
-		50580C4CD86A9B805C4F7E252234FE2C /* Release */ = {
+		32ABAA72DB4AF0C05D366D8A6D0BA94C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 796A98B093271F98974C5B77AC6DE69E /* CocoaAsyncSocket.xcconfig */;
+			baseConfigurationReference = 6273A7B83B3373E5D608A017858407FB /* JSONModel.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = CocoaAsyncSocket;
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JSONModel;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+		37A831C2129B0C9FF5D7888BE9F975C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFF3CCC00FB79CFA07E3D5A0C0AE7784 /* Pods-dial-discovery-ios_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Pods-dial-discovery-ios_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dial_discovery_ios_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1110,10 +1119,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -1159,41 +1171,11 @@
 			};
 			name = Debug;
 		};
-		6D31F8ECD89B12653B623089D1B8C179 /* Debug */ = {
+		6B3FD0FC1482723FD84339BD0EF72380 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6273A7B83B3373E5D608A017858407FB /* JSONModel.xcconfig */;
+			baseConfigurationReference = 72B4F888E89E200963FE900095046CCA /* Pods-dial-discovery-ios_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = JSONModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8E4493143C3C69F208FFD3A9FDB84759 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6273A7B83B3373E5D608A017858407FB /* JSONModel.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1205,49 +1187,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JSONModel/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JSONModel;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9142C81191B590F8E723B0E7CD624AC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ADBD1C6CA1F553C62C8035F3EFC3A65C /* Pods-dial-discovery-ios_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-dial-discovery-ios_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-dial-discovery-ios_Tests/Pods-dial-discovery-ios_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Pods-dial-discovery-ios_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_dial_discovery_ios_Tests;
+				PRODUCT_NAME = Pods_dial_discovery_ios_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1256,10 +1207,119 @@
 			};
 			name = Release;
 		};
-		9219FC9441F60AE3ED4EC5FDBB4A0584 /* Release */ = {
+		ABD4F1ECEF4C1EC470160B29CAC075D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D82C0427D0A9678EA9F4208CFA3405 /* simple-logger-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/simple-logger-ios/simple-logger-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/simple-logger-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/simple-logger-ios/simple-logger-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = simple_logger_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC264D1C3017FC809F10759937F483AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796A98B093271F98974C5B77AC6DE69E /* CocoaAsyncSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D032A7F68C053045E8D7DF0EE1AC9AB6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88549A67C6C30DB7CDF2CCFF96C7E77B /* dial-discovery-ios.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1287,10 +1347,79 @@
 			};
 			name = Release;
 		};
-		A6B0CD1D10A98AAB2322157BF9E80068 /* Debug */ = {
+		DEADDCCA6C7BD88D0AE1757F450DBE7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D82C0427D0A9678EA9F4208CFA3405 /* simple-logger-ios.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/simple-logger-ios/simple-logger-ios-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/simple-logger-ios/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/simple-logger-ios/simple-logger-ios.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = simple_logger_ios;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB35CADB3D30F66102074CE9837F9F5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADBD1C6CA1F553C62C8035F3EFC3A65C /* Pods-dial-discovery-ios_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-dial-discovery-ios_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-dial-discovery-ios_Tests/Pods-dial-discovery-ios_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_dial_discovery_ios_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD41BF367E9459DA1F0529B4BC31DCB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 796A98B093271F98974C5B77AC6DE69E /* CocoaAsyncSocket.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1318,10 +1447,11 @@
 			};
 			name = Debug;
 		};
-		B3D0616183A405A2E219B8D598C4D123 /* Debug */ = {
+		FEEBCAA0F334B2FB63F2B23C557CD86E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6CBF6689F5B1771FD5E52F391F14AE5 /* Pods-dial-discovery-ios_Tests.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1353,124 +1483,14 @@
 			};
 			name = Debug;
 		};
-		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DEC5111E8963BE5AF345147DACBD38FB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFF3CCC00FB79CFA07E3D5A0C0AE7784 /* Pods-dial-discovery-ios_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Pods-dial-discovery-ios_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_dial_discovery_ios_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EFCBEACFA7D3506D43B84E4C8719A567 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72B4F888E89E200963FE900095046CCA /* Pods-dial-discovery-ios_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-dial-discovery-ios_Example/Pods-dial-discovery-ios_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_dial_discovery_ios_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
-				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1478,8 +1498,8 @@
 		4D99017D05DB80E0B53A555FEB22EDD0 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D31F8ECD89B12653B623089D1B8C179 /* Debug */,
-				8E4493143C3C69F208FFD3A9FDB84759 /* Release */,
+				32ABAA72DB4AF0C05D366D8A6D0BA94C /* Debug */,
+				079CBCEEF40C3DA57BC67778C5A6771F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1487,8 +1507,8 @@
 		83D28EAC6D6D030E3EA0C19566F08118 /* Build configuration list for PBXNativeTarget "dial-discovery-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C79CDDCF661E69FB89A58BA73409946 /* Debug */,
-				9219FC9441F60AE3ED4EC5FDBB4A0584 /* Release */,
+				096D46A10CC1FC2C4B390978053701AB /* Debug */,
+				D032A7F68C053045E8D7DF0EE1AC9AB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1496,8 +1516,8 @@
 		84CD7A2B2A1A7738717065CAD56EA70F /* Build configuration list for PBXNativeTarget "simple-logger-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				023DE06AB02FA04E290D23930FAD09D2 /* Debug */,
-				4514E460D2D9B48E7D37CAAC23BDAFCB /* Release */,
+				DEADDCCA6C7BD88D0AE1757F450DBE7F /* Debug */,
+				ABD4F1ECEF4C1EC470160B29CAC075D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1505,8 +1525,8 @@
 		CF48D1A1569C01799152544CD623EA53 /* Build configuration list for PBXNativeTarget "Pods-dial-discovery-ios_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B3D0616183A405A2E219B8D598C4D123 /* Debug */,
-				9142C81191B590F8E723B0E7CD624AC3 /* Release */,
+				FEEBCAA0F334B2FB63F2B23C557CD86E /* Debug */,
+				FB35CADB3D30F66102074CE9837F9F5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1514,8 +1534,8 @@
 		D208ACEE85F75B2E4428C89756C7ECFF /* Build configuration list for PBXNativeTarget "Pods-dial-discovery-ios_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DEC5111E8963BE5AF345147DACBD38FB /* Debug */,
-				EFCBEACFA7D3506D43B84E4C8719A567 /* Release */,
+				37A831C2129B0C9FF5D7888BE9F975C5 /* Debug */,
+				6B3FD0FC1482723FD84339BD0EF72380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1532,8 +1552,8 @@
 		F2A03B912F777B2BFB05E7B9E903B15F /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6B0CD1D10A98AAB2322157BF9E80068 /* Debug */,
-				50580C4CD86A9B805C4F7E252234FE2C /* Release */,
+				FD41BF367E9459DA1F0529B4BC31DCB1 /* Debug */,
+				AC264D1C3017FC809F10759937F483AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

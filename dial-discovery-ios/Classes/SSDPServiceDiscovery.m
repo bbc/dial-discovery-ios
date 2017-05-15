@@ -69,7 +69,7 @@ typedef enum : NSUInteger {
 #pragma mark - SSDPServiceDiscovery (Interface Extension)
 //------------------------------------------------------------------------------
 
-@interface SSDPServiceDiscovery(){
+@interface SSDPServiceDiscovery() <GCDAsyncUdpSocketDelegate>{
     
 }
 

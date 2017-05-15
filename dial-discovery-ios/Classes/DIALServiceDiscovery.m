@@ -25,6 +25,7 @@
 
 
 
+
 //------------------------------------------------------------------------------
 #pragma mark - Notifications
 //------------------------------------------------------------------------------
@@ -87,7 +88,7 @@ NSString * const kHbbTVApp = @"HbbTV";
 - (id) init{
     self = [super init];
     if (self != nil) {
-
+        
         
         discoveryTaskList = [[NSMutableArray alloc] init];
         discoveredDevicesList = [[NSMutableArray alloc] init];
@@ -132,6 +133,8 @@ NSString * const kHbbTVApp = @"HbbTV";
 //------------------------------------------------------------------------------
 
 - (void) start{
+    
+    NSLog(@"starting dial discovery");
     
     serviceRover = [[SSDPServiceDiscovery alloc] initWithServiceType:SSDPServiceType_DIAL_MultiScreenOrgService1];
     serviceRover.delegate = self;
@@ -192,9 +195,9 @@ NSString * const kHbbTVApp = @"HbbTV";
 
 //------------------------------------------------------------------------------
 
-- (NSArray*) getDevicesJSON
+- (NSString*) getDevicesJSON
 {
-    NSString* json = @"{ \"devices\": [";
+    NSString* json = @"[";
     
     DIALDevice *last = [discoveredDevicesList lastObject];
     
@@ -206,7 +209,7 @@ NSString * const kHbbTVApp = @"HbbTV";
             json = [json stringByAppendingString:@" , "];
     }
     
-    json = [json stringByAppendingString:@"]}"];
+    json = [json stringByAppendingString:@"]"];
     
     return json;
 }
@@ -366,7 +369,7 @@ NSString * const kHbbTVApp = @"HbbTV";
         
     }
     
-       
+    
 }
 
 
