@@ -5,7 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/dial-discovery-ios.svg?style=flat)](http://cocoapods.org/pods/dial-discovery-ios)
 [![Platform](https://img.shields.io/cocoapods/p/dial-discovery-ios.svg?style=flat)](http://cocoapods.org/pods/dial-discovery-ios)
 
-An iOS framework to read configuration key-value pairs from a config file and make them globally available. The `ConfigReader` class provides the functionality to read values from a specified config file and convert them to the appropriate type.
+This framework provides APIs for service discovery via SSDP and device discovery via DIAL. An example app shows how this pod can be used
+to discover HbbTV terminals. 
 
 ## Example
 
